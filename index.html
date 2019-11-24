@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ignacio Ripoli</title>
+</head>
+<body>
+    <main>
+        <scrip></scrip>
+        <span id="home"></span>
+        <header>
+            <span class="header__redes">
+                <!-- <figure>
+                    <img id="logo_redsocial" src="fotos/logo_github.svg" alt="link a github">
+                </figure> -->
+            </span>
+            <figure class="header__figure">
+                <img src="fotos/Screenshot_20190904-110608_Instagram.jpg" alt="mi foto de perfil" id="foto-perfil">
+                <figcaption>Texto ejemplo</figcaption>
+            </figure>
+            <h1 class="header__titulo">IGNACIO RIPOLI</h1>
+            <h2 class="header__subtitulo">FullStack Developer</h2>
+            
+            <nav class="header__nav">    
+                <a href="#home">Home</a>
+                <a href="#tecnologia">Tecnologia</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <span class="nav__btn" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </span>
+        </header>
+<!--------------------- COMIENZO BODY--------------------->
+
+        <section class="perfil">
+            <article id='perfil__home'>
+                <div class="home__sobreMi">  
+                    <h2 class="perfil__subtitulo">SOBRE MÍ</h2>
+                    <p>Buen trato interpersonal, independiente, responsable y puntual. Fácil adaptación a diferentes tareas y ambientes. Me interesa aprender y capacitarme regularmente. </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quo optio eos explicabo provident fugiat? Alias vitae ad sequi aliquam, eum molestias! Dignissimos suscipit repudiandae itaque. Quam, dicta eveniet? Temporibus.</p>
+                </div>
+            </article>
+            <article id="tecnologia">
+                <h2 class="perfil__subtitulo subtitulo_tecnologia">Tecnologias</h2>
+                <div id="tecnoContenedor">
+                    <div class="tecnoContenedor__tecnologia html5"><img src="fotos/iconos/1200px-HTML5_logo_and_wordmark.svg.png" alt="logo html5"></div>
+                    <div class="tecnoContenedor__tecnologia css3"><img src="fotos/iconos/CSS3_logo_and_wordmark.svg.png" alt="logo ccs3"></div>
+                    <div class="tecnoContenedor__tecnologia js"><img src="fotos/iconos/js logo.gif" alt="logo javascript"></div>
+                    <div class="tecnoContenedor__tecnologia sass"><img src="fotos/iconos/sass_icon.png" alt="logo sass"></div>
+                    <div class="tecnoContenedor__tecnologia"><img src="fotos/iconos/docker_logo.png" alt="logo_docker"></div>
+                    <div class="tecnoContenedor__tecnologia"><img src="fotos/iconos/logo_github oscuro.png" alt="logo github"></div>
+                    <div class="tecnoContenedor__tecnologia"><img src="fotos/iconos/mysql_icon.png" alt="logo my sql"></div>
+                    <div class="tecnoContenedor__tecnologia"><img src="fotos/iconos/php_icono.png" alt="logo php"></div>
+                </div>
+            </article>
+
+            <!---------------------EXPERIENCIA------------------------->
+            <article id="experiencia">
+                <h2 class="perfil__subtitulo">RESUMEN</h2>
+                <div class="experiencia__contenedor">
+                <!--<div class="linTime"></div>-->
+                <div class="linTime__contenido">
+                    <div class="fondo">
+
+                    </div>
+                        <div id="linTime__trabajos">
+                                <div class="historial"></div> 
+                            <h3>Historial</h3>
+                            <div id="linTime__trabajos">
+                                    <div class="trabajo_actual"></div> 
+                                <p>Julio 2018 - Actualmente</p>
+                                <h4>Coordinardor de Onboarding</h4>
+                                <h5>En Alterhome.es</h5>
+                                <p>Actualmente desarrollo funciones de coordinador, optimizando los procesos de alta de viviendas que nuestros comerciales captan para su posterior puesta en alquiler turistico</p>
+                            </div>
+
+                            <div id="linTime__trabajos">
+                                    <div class="trabajo_antiguo"></div>
+                                <p>Marzo 2015 a Junio 2018</p>
+                                <h4>Auxiliar Administrativo</h4>
+                                <h5>En ABSSA</h5>
+                                <p>Tareas de administracion control de cobros de proovedores, pagos. Gestion de tramites y documentacion</p>
+                            </div>
+                            
+                            <div id="linTime__trabajos">
+                                    <div class="trabajo_antiguo"></div>
+                                    <p>Diciembre 2014 - Febrero 2015</p>
+                                    <h4>Voluntariado en refugio de  montaña</h4>
+                                    <h5>En Refugio Otto Meiling</h5>
+                                    <p>En un refugio a 3500msnm realice tareas de cocina, recibimiento a los viajeros y montañistas, y organizando las excursiones pagas.</p>
+                                </div>
+
+                    <!------------------FORMACION------------------->
+
+                                <div id="linTime__trabajos" class="formacion">
+                                    <div class="historial"></div> 
+                                    <h3>Formación</h3>
+                                </div>
+                                <div id="linTime__trabajos">
+                                    <div class="educacion_actual"></div> 
+                                    <h4>Full-Stack Web Developer</h4>
+                                    <h5>En Upgrade-Hub</h5>
+                                </div>
+                                <div id="linTime__trabajos">
+                                        <div class="educacion_antigua"></div>
+                                        <h4>Curso de ingles avanzado</h4>
+                                        <h5>En Universidad Rey Juan Carlos</h5>
+                                </div>
+                            </div>   
+                           
+                        </div>
+                        <div class="fondo_bajo"></div>
+                </div>
+                </article>
+
+       <!----------------------------CONTACTO---------------------------->
+            
+                <article id="contacto">
+                    <h2 class="perfil__subtitulo" id="contacto__titulo">CONTACTO</h2>
+                    <form class="form__contacto">
+                        <label  id="inputNombre">Nombre:</label>
+                        <input type="text"><br>
+                        <label>Telefono:</label>
+                        <input type="tel"><br>
+                        <label>Correo Electronico:</label>
+                        <input type="email"><br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aquí tu mensaje" style="resize:none"></textarea><br>
+                        <input id="submit" type="submit">
+                    </form>
+                </article>
+        </section>
+        <footer class="main__footer"></footer>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
