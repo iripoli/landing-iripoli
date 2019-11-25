@@ -246,7 +246,7 @@ header{
 
 #experiencia{
     position: relative;
-
+    overflow: hidden;
     background-color: #EBF0DF;
 }
 
@@ -512,7 +512,7 @@ header{
 .fondo_bajo{
     width: 20px;
     position: absolute;
-    height: 51px;
+    height: 501px;
     background-color: #ebf0df;
     top: 94%;
     margin-left: -40px;
