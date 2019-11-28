@@ -73,7 +73,8 @@ header{
 
 #foto-perfil{
     position: absolute;
-    top: -45px;
+    top: -24px;
+    left: -38px;
     vertical-align: middle;
 
     
@@ -95,10 +96,10 @@ header{
 
 
 .header__figure img{
-    width: 22rem;
-    height: 24rem;
+    width: 15rem;
+    height: 19rem;
     background-size: contain;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 .header__titulo{
@@ -478,14 +479,16 @@ header{
     
     #foto-perfil{
         position: absolute;
-        top: -50px;
+        top: -20px;
         vertical-align: middle;
+        left: -12px;
+    
         
         
     }
     .header__figure img {
-        width: 24rem;
-        height: 25rem;
+        width: 12rem;
+        height: 16rem;
         background-size: contain;
         overflow: hidden;
     }
